@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.titulo {
+    padding: 40px;
+    color: black; /* Título en negro */
+}
+
+nav ul {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #4CAF50; /* Verde floreciente */
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    padding: 10px;
+    width: 150px;
+    color: black; /* Texto negro */
+}
+
+nav ul a:hover {
+    background-color: #4CAF50; /* Verde claro al pasar el mouse */
+}
+
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenido .izquierda {
+    width: 70%;
+    margin: auto;
+}
+
+.contenido .izquierda .articulo {
+    background-color: #90EE90; /* Verde claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.contenido .izquierda .articulo h2 {
+    color: #2E8B57; /* Verde más oscuro */
+}
+
+.contenido .izquierda .articulo div {
+    width: 80%;
+    padding: 15px;
+    background-color: #f0f0f0; /* Gris claro */ /* Cambia el color de fondo aquí */
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contenido .izquierda .articulo img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.contenido .derecha {
+    width: 20%;
+    background-color: #00FFFF; /* Cyan */
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.piedepagina {
+    background-color: #f0f0f0; /* Gris claro */
+    margin: 100px;
+}
+
+.piedepagina p {
+    padding: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: black; /* Negro */
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #2E8B57; /* Verde más oscuro */
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: black; /* Negro */
+    text-align: justify;
+}
+
+.contenido .izquierda .articulo {
+    background-color: #90EE90; /* Verde claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none; /* Elimina el borde */
+}
+
+.contenido .izquierda .articulo div {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Elimina el borde */
+}
